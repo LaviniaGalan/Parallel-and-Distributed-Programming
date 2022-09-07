@@ -49,7 +49,9 @@ Perform the multiplication of 2 polynomials. Use both the regular O(n2) algorith
 Given a directed graph, find a Hamiltonean cycle, if one exists. Use multiple threads to parallelize the search.
 
 #### Lab 7 (MPI programming)
-Perform the multiplication of 2 polynomials, by distributing computation across several nodes using MPI. Use both the regular O(n2) algorithm and the Karatsuba algorithm. Compare the performance with the "regular" CPU implementation from lab 5.
+Perform the multiplication of 2 polynomials, by distributing computation across several nodes using MPI. Use both the regular O(n^2) algorithm and the Karatsuba algorithm. Compare the performance with the "regular" CPU implementation from lab 5.
+
+Bonus: do the same for the multiplication of big numbers.
 
 #### Lab 8 (Distributed protocols)
 Implement a simple distributed shared memory (DSM) mechanism. The lab shall have a main program and a DSM library. There shall be a predefined number of communicating processes. The DSM mechanism shall provide a predefined number of integer variables residing on each of the processes. The DSM shall provide the following operations:
